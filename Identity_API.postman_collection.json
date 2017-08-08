@@ -1,0 +1,364 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Identity_API",
+		"_postman_id": "39d67699-8354-4d32-7139-633154dc719b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Identity-getIdentityDetails_2-PORTALID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/identity/v1/identity/details/PORTALID",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"portal_ids\":[\"hussain.vhora\"]}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Identity-getIdentityDetails_2-USERNAME",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/identity/v1/identity/details/PORTALID",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"portal_ids\":[\"user26438094\"]}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Identity-RegisterUser1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var message = JSON.parse(responseBody);",
+							"tests[\"portal_id_already_exists\"] = responseBody.has(\"portal_id_already_exists\");"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/identity/v1/identity/mor",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, application/javascript, text/javascript",
+						"description": ""
+					},
+					{
+						"key": "Connection",
+						"value": "Keep-Alive",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\t{\r\n\t\t\"security_answer\":\"Tottenham Court Road\",\r\n\t\"portal_id\":11589433,\r\n\t\"birthdate\":\"1980-2-3\",\r\n\t\"family_name\":\"name\",\r\n\t\"security_question_id\":\"memorableName\",\r\n\t\"new_password\":\"welcome1\",\r\n\t\"given_name\":\"test\",\r\n\t\"contact_receive_partner\":false,\r\n\t\"contact_receive_o2\":true\r\n\t\t\r\n\t}\r\n"
+				},
+				"description": "RegisterUser"
+			},
+			"response": []
+		},
+		{
+			"name": "authtoken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/auth/v1/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\"scope\":[\"profile\",\"phone\",\"email\"],\"grant_type\":\"authorization_code\",\"code\":\"48da9002-679b-4761-99e7-b5f2b6b105d3\"}"
+				},
+				"description": "Identity-getIdentityDetails_2-PORTALID"
+			},
+			"response": []
+		},
+		{
+			"name": "genrate&sendPassword",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/yellowidentity/v2/notification",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"identifier_type\": \"string\",\r\n  \"identifier_value\": \"string\",\r\n  \"display_name\": \"string\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "authSpoof",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "soamor",
+						"password": "soamorSecret",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://api0.ref.o2.co.uk/auth/v1/auth/spoof",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"uid\":\"20000000000000060057\"\n}"
+				},
+				"description": "Identity-getIdentityDetails_2-PORTALID"
+			},
+			"response": []
+		},
+		{
+			"name": "updateContactNumber",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/yellowidentity/v2/notification",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone_number\":{\"msisdn\":449907296475},\"portal_id\":\"root.boot\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Identity-getIdentityDetails_2-PORTALID copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://api0.ref.o2.co.uk/identity/v1/identity/details/PORTALID",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"portal_ids\":[\"hussain.vhora\"]}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "createPaymAsset",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 201\"] = responseCode.code === 201;"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "soamor",
+						"password": "soamorSecret",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"url": "https://api0.ref.o2.co.uk/person/v1/person/PAYMCUSTOMER/{{portal_id}}",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic c29hbW9yOnNvYW1vclNlY3JldA==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"identifier_type\": \"string\",\r\n  \"identifier_value\": \"string\",\r\n  \"display_name\": \"string\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
