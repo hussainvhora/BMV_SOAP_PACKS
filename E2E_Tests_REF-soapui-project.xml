@@ -14351,7 +14351,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_49978</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain49978</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora49978</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453149978</con:value></con:property></con:properties></con:testCase><con:testCase id="6cd9e773-f582-4cba-857e-82a164afe09e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E002" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="8960349c-e7fd-4446-bc3a-b8c6462f1d10"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_61465</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain61465</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora61465</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453161465</con:value></con:property></con:properties></con:testCase><con:testCase id="6cd9e773-f582-4cba-857e-82a164afe09e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E002" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="8960349c-e7fd-4446-bc3a-b8c6462f1d10"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -14559,7 +14559,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_26276</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80002132</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain26276@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain26276</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora26276</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453126276</con:value></con:property></con:properties></con:testCase><con:testCase id="aa80a84f-3519-423e-9153-e8ae7323c24a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E003" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="637827ad-36cf-4152-97eb-59f4646e83fe"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_78041</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788810</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain78041@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain78041</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora78041</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453178041</con:value></con:property></con:properties></con:testCase><con:testCase id="aa80a84f-3519-423e-9153-e8ae7323c24a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E003" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="637827ad-36cf-4152-97eb-59f4646e83fe"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -14704,7 +14704,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e448631114</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11776586</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e448631114@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E44119</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E44119</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453144119</con:value></con:property></con:properties></con:testCase><con:testCase id="a70cc34e-b7c8-4ab4-abc1-4f3f92b6ec9b" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E008" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="20dd8785-9fe1-46d6-a495-e32450035eba"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e479281141</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788811</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e479281141@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E49869</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E49869</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453149869</con:value></con:property></con:properties></con:testCase><con:testCase id="a70cc34e-b7c8-4ab4-abc1-4f3f92b6ec9b" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E008" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="20dd8785-9fe1-46d6-a495-e32450035eba"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "AltEmail", "e2e_" + RandomNumber + "@o2.co.uk")
 log.info RandomNumber
@@ -14855,7 +14855,7 @@ def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def portalId = responseHolder.getNodeValue("//man:getOnlineAccountDetails_2Response/man:userDetails/man:portalId")
 log.info "portalId : " + portalId
-messageExchange.modelItem.testStep.testCase.setPropertyValue("PortalId", portalId)</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e211639408</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E25992</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E25992</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453125992</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_25992@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="fb1d428c-503c-43fc-85b6-4d52babf5778" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E009" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="4d2433df-3c73-43c5-a13a-9b8dc12c0626"><con:settings/><con:config><script>
+messageExchange.modelItem.testStep.testCase.setPropertyValue("PortalId", portalId)</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e750097234</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E79180</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E79180</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453179180</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_79180@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="fb1d428c-503c-43fc-85b6-4d52babf5778" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E009" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="4d2433df-3c73-43c5-a13a-9b8dc12c0626"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "AltEmail", "e2e_" + RandomNumber + "@o2.co.uk")
 log.info RandomNumber
@@ -15069,7 +15069,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e148852394</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001628</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_13138@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E13138</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E13138</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453113138</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_13138@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="6c101820-bf83-49e4-a121-09f015fc90d3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E010" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="d3d82761-cef9-4518-95af-4f3fdd36fc9f"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e119675132</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788813</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_16971@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E16971</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E16971</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453116971</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_16971@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="6c101820-bf83-49e4-a121-09f015fc90d3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E010" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="d3d82761-cef9-4518-95af-4f3fdd36fc9f"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "AltEmail", "e2e_" + RandomNumber + "@o2.co.uk")
 log.info RandomNumber
@@ -15289,7 +15289,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e522877475</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001629</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_54027@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E54027</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E54027</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453154027</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_54027@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="5889318e-afc7-45b2-aaf9-13dfd33c57b2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E011" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="95060d28-d078-4e33-ae27-5cbf0ab672ce"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e029173869</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788814</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_00772@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E00772</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E00772</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453100772</con:value></con:property><con:property><con:name>AltEmail</con:name><con:value>e2e_00772@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="5889318e-afc7-45b2-aaf9-13dfd33c57b2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E011" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="95060d28-d078-4e33-ae27-5cbf0ab672ce"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "AltEmail", "e2e_" + RandomNumber + "@o2.co.uk")
 log.info RandomNumber
@@ -15628,7 +15628,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>AltEmail</con:name><con:value>e2e_42697@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E42697</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E42697</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453142697</con:value></con:property><con:property><con:name>portalId</con:name><con:value>e2e475089140</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001630</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_42697@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="b2be1f41-95de-4da6-b3ba-796d00fc5ce7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E014" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="bb5be1af-5716-49cf-8278-3ee77a847b42"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>AltEmail</con:name><con:value>e2e_12264@o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E12264</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E12264</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453112264</con:value></con:property><con:property><con:name>portalId</con:name><con:value>e2e182366040</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788815</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e_12264@o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="b2be1f41-95de-4da6-b3ba-796d00fc5ce7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E014" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="bb5be1af-5716-49cf-8278-3ee77a847b42"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -15773,7 +15773,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e608876681</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001631</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e608876681@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E68300</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E68300</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453168300</con:value></con:property></con:properties></con:testCase><con:testCase id="7428a56e-de35-4b0f-8046-b5a3072243a7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E015" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="c085e231-d769-4df0-a637-5de519c5fea4"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e421924563</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788816</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e421924563@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E43818</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E43818</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453143818</con:value></con:property></con:properties></con:testCase><con:testCase id="7428a56e-de35-4b0f-8046-b5a3072243a7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E015" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="c085e231-d769-4df0-a637-5de519c5fea4"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -15979,7 +15979,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_45202</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001632</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain45202@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E45202</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E45202</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453145202</con:value></con:property></con:properties></con:testCase><con:testCase id="0fd244d6-69cc-4e5a-8189-15eb03a61b5a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E016" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="079587ef-efa8-4f03-b249-00d866aab6b4"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_95330</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788817</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain95330@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E95330</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E95330</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453195330</con:value></con:property></con:properties></con:testCase><con:testCase id="0fd244d6-69cc-4e5a-8189-15eb03a61b5a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E016" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="079587ef-efa8-4f03-b249-00d866aab6b4"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -16153,7 +16153,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_94725</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E94725</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E94725</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453194725</con:value></con:property></con:properties></con:testCase><con:testCase id="5ede9fae-8f78-4e0b-9487-858b27df8dbe" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E023" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="15b0dde3-c6a6-4f63-8784-78a2d5a10984"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_65909</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E65909</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E65909</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453165909</con:value></con:property></con:properties></con:testCase><con:testCase id="5ede9fae-8f78-4e0b-9487-858b27df8dbe" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E023" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="15b0dde3-c6a6-4f63-8784-78a2d5a10984"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -16298,7 +16298,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e269580751</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001634</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e269580751@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E29087</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E29087</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453129087</con:value></con:property></con:properties></con:testCase><con:testCase id="45e84214-9c29-4ccf-8b7a-dcd5b97113c4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E024" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="8383bb67-9326-449a-88bf-b815e4682790"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e241464806</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788819</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e241464806@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E23555</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E23555</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453123555</con:value></con:property></con:properties></con:testCase><con:testCase id="45e84214-9c29-4ccf-8b7a-dcd5b97113c4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E024" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="8383bb67-9326-449a-88bf-b815e4682790"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -16413,7 +16413,9 @@ messageExchange.modelItem.testStep.testCase.setPropertyValue("custNum", custNum)
 messageExchange.modelItem.testStep.testCase.setPropertyValue("friendlyUsername", friendlyUsername)
 
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/createOnlineAccount_3"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="createUpdateMsisdnProfile" id="090880ec-c00e-466b-9288-bd7dc8b02bd2"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>managecustomerassetdata_1_0SOAPbinding</con:interface><con:operation>CreateOrUpdateMSISDNProfile</con:operation><con:request name="createUpdateMsisdnProfile" id="ed33fe71-9be5-4826-898d-a80cb3e69a64" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageCustomerAsset_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/managecustomerassetdata_1_0">\r
-   <soapenv:Header/>\r
+   <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xcore="http://soa.o2.co.uk/coredata_1">
+<xcore:debugFlag>true</xcore:debugFlag> 
+</soap:Header>
    <soapenv:Body>\r
       <man:createOrUpdateMsisdnProfile>\r
          <man:portalID>${#TestCase#PortalId}</man:portalID>\r
@@ -16562,7 +16564,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e130275431</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E18033</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E18033</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453118033</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001635</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e130275431@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="a105399a-f158-4daa-b6f5-5fc78f5539a3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E025" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="0d2c6c29-f571-4161-8858-acc807219f09"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_02808</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E02808</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E02808</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453102808</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788820</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e061757879@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="a105399a-f158-4daa-b6f5-5fc78f5539a3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E025" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="0d2c6c29-f571-4161-8858-acc807219f09"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -16707,7 +16709,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e940002666</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001637</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e940002666@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E93538</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E93538</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453193538</con:value></con:property></con:properties></con:testCase><con:testCase id="49069395-344f-40d4-8373-ae67360ea8cf" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E026" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="968049c2-7e31-434d-b2b3-bbfa16e690d8"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e441012664</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788821</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e441012664@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E47641</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E47641</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453147641</con:value></con:property></con:properties></con:testCase><con:testCase id="49069395-344f-40d4-8373-ae67360ea8cf" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E026" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="968049c2-7e31-434d-b2b3-bbfa16e690d8"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -16901,20 +16903,18 @@ assert externalDesc == "MSISDN profile was done successfully"
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="c331cd2b-5bd3-4489-b0ff-5276f0ba58b1"/><con:assertion type="Schema Compliance" id="e20a18a6-06c1-4151-81b1-2593f54b0920"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="c50550f1-006e-4b06-b577-e0e87ddd6b61" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
-def statusCode = responseHolder.getNodeValue("//man:createOrUpdateMsisdnProfileResponse/cor:statusCode")
+//def statusCode = responseHolder.getNodeValue("//man:createOrUpdateMsisdnProfileResponse/cor:faultstring")
+//log.info "statusCode : " + statusCode
+
+//def faultDesc = responseHolder.getNodeValue("//man:createOrUpdateMsisdnProfileResponse/cor:externalDescription")
+//log.info "externalDesc : " + externalDesc
+
+def statusCode = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
 log.info "statusCode : " + statusCode
 
-def externalDesc = responseHolder.getNodeValue("//man:createOrUpdateMsisdnProfileResponse/cor:externalDescription")
-log.info "externalDesc : " + externalDesc
+assert statusCode == "Pre-pay MSISDN with RECONNECT service status"
 
-def internalDesc = responseHolder.getNodeValue("//man:createOrUpdateMsisdnProfileResponse/cor:internalDescription")
-log.info "internalDesc : " + internalDesc
-
-assert statusCode == "managecustomerasset-37186-0000-S"
-assert externalDesc == "MSISDN profile was done successfully"
-//assert internalDesc == "internal description"
-
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e293688953</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001638</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e293688953@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E28955</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E28955</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453128955</con:value></con:property></con:properties></con:testCase><con:testCase id="9ee29c79-862c-43f0-a573-75b6718beafb" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E031" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="fca9ffb7-fcbf-43ec-b641-d86ea92727ff"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e285777960</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788822</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e285777960@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E22412</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E22412</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453122412</con:value></con:property></con:properties></con:testCase><con:testCase id="9ee29c79-862c-43f0-a573-75b6718beafb" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E031" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="fca9ffb7-fcbf-43ec-b641-d86ea92727ff"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -17090,7 +17090,7 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e783990109</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001639</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e783990109@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E74181</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E74181</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453174181</con:value></con:property></con:properties></con:testCase><con:testCase id="7309c93f-9770-4f6d-a8dc-1d9b99871682" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E032" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="c4a52e62-b9f4-4eae-832a-30991c9e7347"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e525197425</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788823</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e525197425@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E59362</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E59362</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453159362</con:value></con:property></con:properties></con:testCase><con:testCase id="7309c93f-9770-4f6d-a8dc-1d9b99871682" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E032" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="c4a52e62-b9f4-4eae-832a-30991c9e7347"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -17405,7 +17405,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "DISCONNECT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e273049320</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E25592</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E25592</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453125592</con:value></con:property><con:property><con:name>msisdnAsset</con:name><con:value>447453166962</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001641</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e273049320@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="a1b94dca-42be-4d6b-ace7-2a6f5f1aa0ad" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E033" searchProperties="true"><con:settings/><con:testStep type="request" name="createUpdateMsisdnProfile" id="41dc3e2e-a78b-42be-9214-006b00a59b8c"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>managecustomerassetdata_1_0SOAPbinding</con:interface><con:operation>CreateOrUpdateMSISDNProfile</con:operation><con:request name="createUpdateMsisdnProfile" id="ed33fe71-9be5-4826-898d-a80cb3e69a64" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageCustomerAsset_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/managecustomerassetdata_1_0">\r
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e146867551</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E10165</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E10165</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453110165</con:value></con:property><con:property><con:name>msisdnAsset</con:name><con:value>447453100342</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788824</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e146867551@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="a1b94dca-42be-4d6b-ace7-2a6f5f1aa0ad" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E033" searchProperties="true"><con:settings/><con:testStep type="request" name="createUpdateMsisdnProfile" id="41dc3e2e-a78b-42be-9214-006b00a59b8c"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>managecustomerassetdata_1_0SOAPbinding</con:interface><con:operation>CreateOrUpdateMSISDNProfile</con:operation><con:request name="createUpdateMsisdnProfile" id="ed33fe71-9be5-4826-898d-a80cb3e69a64" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageCustomerAsset_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/managecustomerassetdata_1_0">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <man:createOrUpdateMsisdnProfile>\r
@@ -17884,7 +17884,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "DISCONNECT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e965967750</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001642</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e965967750@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E97802</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E97802</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453197802</con:value></con:property></con:properties></con:testCase><con:testCase id="4f2e4a81-077c-47c0-aa57-23a55565fef8" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E035" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="5f7937a5-2451-418e-853c-8a7d61b095c6"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e322894244</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788828</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>11788828</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E31725</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E31725</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453131725</con:value></con:property></con:properties></con:testCase><con:testCase id="4f2e4a81-077c-47c0-aa57-23a55565fef8" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E035" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="5f7937a5-2451-418e-853c-8a7d61b095c6"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -18199,7 +18199,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "DISCONNECT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e295669737</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001643</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e295669737@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E24078</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E24078</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453124078</con:value></con:property><con:property><con:name>msisdnAsset</con:name><con:value>447453135549</con:value></con:property></con:properties></con:testCase><con:testCase id="30d233a3-6af0-4016-a95b-d99a593fbb45" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E036" searchProperties="true"><con:settings/><con:testStep type="request" name="createUpdateMsisdnProfile" id="d2441666-5ceb-48ba-9e4b-b77f8bc89566"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>managecustomerassetdata_1_0SOAPbinding</con:interface><con:operation>CreateOrUpdateMSISDNProfile</con:operation><con:request name="createUpdateMsisdnProfile" id="ed33fe71-9be5-4826-898d-a80cb3e69a64" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageCustomerAsset_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/managecustomerassetdata_1_0">\r
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e330623462</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788829</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e330623462@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E39806</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E39806</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453139806</con:value></con:property><con:property><con:name>msisdnAsset</con:name><con:value>447453132925</con:value></con:property></con:properties></con:testCase><con:testCase id="30d233a3-6af0-4016-a95b-d99a593fbb45" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E036" searchProperties="true"><con:settings/><con:testStep type="request" name="createUpdateMsisdnProfile" id="d2441666-5ceb-48ba-9e4b-b77f8bc89566"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>managecustomerassetdata_1_0SOAPbinding</con:interface><con:operation>CreateOrUpdateMSISDNProfile</con:operation><con:request name="createUpdateMsisdnProfile" id="ed33fe71-9be5-4826-898d-a80cb3e69a64" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageCustomerAsset_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/managecustomerassetdata_1_0">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <man:createOrUpdateMsisdnProfile>\r
@@ -18678,7 +18678,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "DISCONNECT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e983333447</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001644</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e983333447@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E93081</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E93081</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453193081</con:value></con:property></con:properties></con:testCase><con:testCase id="b53891ae-9a73-493c-b865-48edec5fb771" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E038" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="6f0dc4db-0dd3-4990-80cb-f6385c220a5f"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e923971819</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788831</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e923971819@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E97779</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E97779</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453197779</con:value></con:property></con:properties></con:testCase><con:testCase id="b53891ae-9a73-493c-b865-48edec5fb771" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E038" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="6f0dc4db-0dd3-4990-80cb-f6385c220a5f"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -18990,7 +18990,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "POUT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e732916222</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E72592</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E72592</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453172592</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001645</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e732916222@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="f83e4a92-5239-4ec5-985c-994abb211ef2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E039" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="1189c843-fadc-421a-8100-fa9fc1bec882"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e325949949</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E34854</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E34854</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453134854</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788832</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e325949949@stf.ref.o2.co.uk</con:value></con:property></con:properties></con:testCase><con:testCase id="f83e4a92-5239-4ec5-985c-994abb211ef2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E039" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="1189c843-fadc-421a-8100-fa9fc1bec882"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -19302,7 +19302,7 @@ log.info "Status: " + Status
 //assert altEmail == "hussainvhora@rediffmail.com"
 assert serviceStatus == "POUT"
 assert Status == "INACTIVE"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e134337470</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001646</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e134337470@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E16682</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E16682</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453116682</con:value></con:property></con:properties></con:testCase><con:testCase id="1e5c5ac9-72ce-4649-a018-0a839c9d1e06" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E040" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="c877958f-4e3f-4cb0-9543-1ca91c4dc3da"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e128680916</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788833</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e128680916@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E15600</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E15600</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453115600</con:value></con:property></con:properties></con:testCase><con:testCase id="1e5c5ac9-72ce-4649-a018-0a839c9d1e06" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E040" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="c877958f-4e3f-4cb0-9543-1ca91c4dc3da"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -19478,13 +19478,13 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e613907724</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001653</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e613907724@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E67777</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E67777</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453167777</con:value></con:property></con:properties></con:testCase><con:testCase id="f4b7c9a3-89e8-4d3e-a01a-ad1ce128c878" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E053" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="request" name="searchOnlineAccounts_1_001" id="f060fe00-5cdc-4b7f-bd1d-747af2c36cd4"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_001" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e022832223</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788834</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e022832223@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E08445</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E08445</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453108445</con:value></con:property></con:properties></con:testCase><con:testCase id="f4b7c9a3-89e8-4d3e-a01a-ad1ce128c878" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E053" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="request" name="searchOnlineAccounts_1_001" id="f060fe00-5cdc-4b7f-bd1d-747af2c36cd4"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_001" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_1>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11786730</user:customerNumber>\r
             <!--Optional:-->\r
 <!--            <user:msisdn>?</user:msisdn>\r-->
             <!--Optional:-->\r
@@ -19580,10 +19580,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -19592,18 +19592,18 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccounts_1_002" id="d44c685b-e345-44cc-a70c-9db2531d3906"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_002" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_1>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11786730</user:customerNumber>\r
             <!--Optional:-->\r
             <user:msisdn>447405311856</user:msisdn>\r
             <!--Optional:-->\r
@@ -19699,10 +19699,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -19711,11 +19711,11 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccounts_1_003" id="423fdddd-952f-4a40-b305-d101bcd223a5"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_003" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
@@ -19726,7 +19726,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:msisdn>?</user:msisdn>\r-->
             <!--Optional:-->\r
-            <user:userName matchingCondition="EXACT">hussain_vhora_3756933193</user:userName>\r
+            <user:userName matchingCondition="EXACT">hussain_vhora_7368799087</user:userName>\r
             <!--Optional:-->\r
 <!--            <user:firstName matchingCondition="?">?</user:firstName>\r-->
             <!--Optional:-->\r
@@ -19818,10 +19818,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -19830,11 +19830,11 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccounts_1_008" id="cc86bbd6-c338-4c52-8dd8-7bf3a7d4b941"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_008" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
@@ -19855,7 +19855,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:postCode matchingCondition="?">?</user:postCode>\r-->
             <!--Optional:-->\r
-            <user:identityUID>20000000000000054936</user:identityUID>\r
+            <user:identityUID>20000000000000065743</user:identityUID>\r
             <!--Optional:-->\r
 <!--            <user:bfId>?</user:bfId>\r-->
          </user:searchCriteria>\r
@@ -19937,10 +19937,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -19949,11 +19949,11 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccounts_1_009" id="2d7b5984-be73-4c69-9abc-13bc048ca314"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_009" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
@@ -19976,7 +19976,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:identityUID>?</user:identityUID>\r-->
             <!--Optional:-->\r
-            <user:bfId>200000000054936</user:bfId>\r
+            <user:bfId>200000000065743</user:bfId>\r
          </user:searchCriteria>\r
          <user:searchOptions>\r
             <!--Optional:-->\r
@@ -20056,10 +20056,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -20068,22 +20068,22 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="4f9b6180-d33a-41ac-a5ae-fe74af43318f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E054" searchProperties="true"><con:settings/><con:testStep type="request" name="searchOnlineAccounts_1_018" id="300da381-1651-497b-822f-8636b4c54b1f"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_1</con:operation><con:request name="searchOnlineAccounts_1_018" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_1>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11786730</user:customerNumber>\r
             <!--Optional:-->\r
             <user:msisdn>447405311856</user:msisdn>\r
             <!--Optional:-->\r
-            <user:userName matchingCondition="EXACT">hussain_vhora_3756933193</user:userName>\r
+            <user:userName matchingCondition="EXACT">hussain_vhora_7368799087</user:userName>\r
             <!--Optional:-->\r
             <user:firstName matchingCondition="EXACT">Hussain</user:firstName>\r
             <!--Optional:-->\r
@@ -20093,9 +20093,9 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
             <user:postCode matchingCondition="EXACT">SL11UW</user:postCode>\r
             <!--Optional:-->\r
-            <user:identityUID>20000000000000054936</user:identityUID>\r
+            <user:identityUID>20000000000000065743</user:identityUID>\r
             <!--Optional:-->\r
-            <user:bfId>200000000054936</user:bfId>\r
+            <user:bfId>200000000065743</user:bfId>\r
          </user:searchCriteria>\r
          <user:searchOptions>\r
             <!--Optional:-->\r
@@ -20175,10 +20175,10 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000065743"
+assert custNum ==  "11786730"
+assert portalId == "hussain_vhora_7368799087"
+assert bfId == "200000000065743"
 assert domain == "stf.ref.o2.co.uk"
 
 //additional fields related to SearchOnlineAccount_2
@@ -20187,18 +20187,18 @@ assert domain == "stf.ref.o2.co.uk"
 //assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
-assert phoneMake == "Nokia"
+//assert phoneMake == "Nokia"
 assert network ==  "O2"
 //assert dqlistingdetail == "Ex-Directory"
 //assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
+assert anrusername == "hussainvhora7368799087@stf.ref.o2.co.uk"
 </scriptText></con:configuration></con:assertion><con:assertion type="SOAP Fault Assertion" id="d9a1c4a9-fa06-4cfc-85fa-44f0ec06c603" name="Not SOAP Fault"/><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="60974d1f-7385-4143-be3d-ad72fe297750" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E055" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="request" name="searchOnlineAccount_2_001" id="15bc9d47-2bce-48f5-a1eb-27623ce25df4"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_001" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11788166</user:customerNumber>\r
             <!--Optional:-->\r
 <!--            <user:msisdn>?</user:msisdn>\r-->
             <!--Optional:-->\r
@@ -20294,32 +20294,39 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_002" id="234384eb-46db-46db-a5b1-475ff995f110"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_002" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_002" id="234384eb-46db-46db-a5b1-475ff995f110"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_002" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11788166</user:customerNumber>\r
             <!--Optional:-->\r
-            <user:msisdn>447405311856</user:msisdn>\r
+            <user:msisdn>447405377780</user:msisdn>\r
             <!--Optional:-->\r
 <!--            <user:userName matchingCondition="EXACT">vhor90956243</user:userName>\r-->
             <!--Optional:-->\r
@@ -20413,24 +20420,31 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_003" id="c6c50716-2f49-444a-819b-d5028ed3ecb3"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_003" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_003" id="c6c50716-2f49-444a-819b-d5028ed3ecb3"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_003" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" sslKeystore="o2_testsupport_cert20190501.p12" wssPasswordType="PasswordText"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
@@ -20440,7 +20454,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:msisdn>?</user:msisdn>\r-->
             <!--Optional:-->\r
-            <user:userName matchingCondition="EXACT">hussain_vhora_3756933193</user:userName>\r
+            <user:userName matchingCondition="EXACT">hussain_vhora_7489224033</user:userName>\r
             <!--Optional:-->\r
 <!--            <user:firstName matchingCondition="?">?</user:firstName>\r-->
             <!--Optional:-->\r
@@ -20532,24 +20546,31 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_008" id="7ed842f9-255e-466b-be18-93d321cd58ee"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_008" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_008" id="7ed842f9-255e-466b-be18-93d321cd58ee"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_008" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
@@ -20569,7 +20590,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:postCode matchingCondition="?">?</user:postCode>\r-->
             <!--Optional:-->\r
-            <user:identityUID>20000000000000054936</user:identityUID>\r
+            <user:identityUID>20000000000000067216</user:identityUID>\r
             <!--Optional:-->\r
 <!--            <user:bfId>?</user:bfId>\r-->
          </user:searchCriteria>\r
@@ -20651,24 +20672,31 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_009" id="e11d2b6d-2f32-4aab-8ea0-1b8c9e320a96"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_009" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchOnlineAccount_2_009" id="e11d2b6d-2f32-4aab-8ea0-1b8c9e320a96"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2_009" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
@@ -20690,7 +20718,7 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
 <!--            <user:identityUID>?</user:identityUID>\r-->
             <!--Optional:-->\r
-            <user:bfId>200000000054936</user:bfId>\r
+            <user:bfId>200000000067216</user:bfId>\r
          </user:searchCriteria>\r
          <user:searchOptions>\r
             <!--Optional:-->\r
@@ -20770,34 +20798,41 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="07460852-5237-4654-8ea5-1b2578bda220" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E056" searchProperties="true"><con:settings/><con:testStep type="request" name="searchOnlineAccount_2" id="ba389d0f-4cad-4f4b-b5df-6a7f7731b618"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="07460852-5237-4654-8ea5-1b2578bda220" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E056" searchProperties="true"><con:settings/><con:testStep type="request" name="searchOnlineAccount_2" id="ba389d0f-4cad-4f4b-b5df-6a7f7731b618"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchOnlineAccounts_2</con:operation><con:request name="searchOnlineAccount_2" id="c532738d-2a6c-44bb-b65b-065df1bbc87b" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <user:searchOnlineAccounts_2>\r
          <user:searchCriteria>\r
             <!--Optional:-->\r
-            <user:customerNumber>80001654</user:customerNumber>\r
+            <user:customerNumber>11788166</user:customerNumber>\r
             <!--Optional:-->\r
-            <user:msisdn>447405311856</user:msisdn>\r
+            <user:msisdn>447405377780</user:msisdn>\r
             <!--Optional:-->\r
-            <user:userName matchingCondition="EXACT">hussain_vhora_3756933193</user:userName>\r
+            <user:userName matchingCondition="EXACT">hussain_vhora_7489224033</user:userName>\r
             <!--Optional:-->\r
             <user:firstName matchingCondition="EXACT">Hussain</user:firstName>\r
             <!--Optional:-->\r
@@ -20807,9 +20842,9 @@ assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
             <!--Optional:-->\r
             <user:postCode matchingCondition="EXACT">SL11UW</user:postCode>\r
             <!--Optional:-->\r
-            <user:identityUID>20000000000000054936</user:identityUID>\r
+            <user:identityUID>13000000000000830973</user:identityUID>\r
             <!--Optional:-->\r
-            <user:bfId>200000000054936</user:bfId>\r
+            <user:bfId>200000000067216</user:bfId>\r
          </user:searchCriteria>\r
          <user:searchOptions>\r
             <!--Optional:-->\r
@@ -20889,24 +20924,31 @@ log.info "anrusername: " + anrusername
 
 assert statusCode == expStatusCode
 assert successMsg == expSuccessMessage
-assert identityUID == "20000000000000054936"
-assert custNum ==  "80001654"
-assert portalId == "hussain_vhora_3756933193"
-assert bfId == "200000000054936"
+assert identityUID == "20000000000000067216"
+assert custNum ==  "11788166"
+assert portalId == "hussain_vhora_7489224033"
+assert bfId == "200000000067216"
 assert domain == "stf.ref.o2.co.uk"
+//assert contactPref == "Email"
 
 //additional fields related to SearchOnlineAccount_2
 
-//assert sec_que == "Memorable name"
-//assert sec_ans == "mine"
+assert sec_que == "Memorable name"
+assert sec_ans == "mine"
 assert accountManagerName == "manager"
 assert accountManagerEmail == "manager@o2.com"
 assert phoneMake == "Nokia"
 assert network ==  "O2"
-//assert dqlistingdetail == "Ex-Directory"
-//assert dqlistinglevel == "Not Opted"
-assert anrusername == "hussainvhora3756933193@stf.ref.o2.co.uk"
-</scriptText></con:configuration></con:assertion><con:assertion type="SOAP Fault Assertion" id="d9a1c4a9-fa06-4cfc-85fa-44f0ec06c603" name="Not SOAP Fault"/><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="aebe23ef-9918-413b-b519-6ed95a505e4a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E064" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="7ae7ed38-9b77-4ed0-93a4-f973ae83f336"><con:settings/><con:config><script>
+assert dqlistingdetail == "Ex-Directory"
+assert dqlistinglevel == "Not Opted"
+assert anrusername == "hussainvhora7489224033@stf.ref.o2.co.uk"
+
+// SOA Transaction ID verification added
+//--------------------------------------
+def soaTransactionId = responseHolder.getNodeValue("//soapenv:Header/cor:SOATransactionID")
+log.info "soaTransactionId :" + soaTransactionId
+
+assert soaTransactionId != null</scriptText></con:configuration></con:assertion><con:assertion type="SOAP Fault Assertion" id="d9a1c4a9-fa06-4cfc-85fa-44f0ec06c603" name="Not SOAP Fault"/><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>statusCode</con:name><con:value>useraccounts-10502-0001-S</con:value></con:property><con:property><con:name>successMessage</con:name><con:value>SearchUserAccounts_1 successful</con:value></con:property></con:properties></con:testCase><con:testCase id="aebe23ef-9918-413b-b519-6ed95a505e4a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E064" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="7ae7ed38-9b77-4ed0-93a4-f973ae83f336"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -21081,7 +21123,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_51020</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E51020</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E51020</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453151020</con:value></con:property></con:properties></con:testCase><con:testCase id="b894af37-98a3-4000-8803-8edc35381d52" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E065" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="da8de103-547c-42f2-b9ad-20c9f80c619a"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_07749</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E07749</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E07749</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453107749</con:value></con:property></con:properties></con:testCase><con:testCase id="b894af37-98a3-4000-8803-8edc35381d52" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E065" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="da8de103-547c-42f2-b9ad-20c9f80c619a"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -21254,7 +21296,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453150636</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_50636</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E50636</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E50636</con:value></con:property></con:properties></con:testCase><con:testCase id="cec0dece-f8fd-456e-a18d-8bec923c1e70" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E066" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="64d03c8a-2a46-4ee6-a137-bd681194a846"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453142104</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_42104</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E42104</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E42104</con:value></con:property></con:properties></con:testCase><con:testCase id="cec0dece-f8fd-456e-a18d-8bec923c1e70" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E066" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="64d03c8a-2a46-4ee6-a137-bd681194a846"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -21427,7 +21469,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453109535</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_09535</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E09535</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E09535</con:value></con:property></con:properties></con:testCase><con:testCase id="d985482a-1287-4916-8ac3-0bbf00664ac4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E067" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="a9d603fa-34cd-42df-b2c6-25e783578f9c"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453162472</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_62472</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E62472</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E62472</con:value></con:property></con:properties></con:testCase><con:testCase id="d985482a-1287-4916-8ac3-0bbf00664ac4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E067" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="a9d603fa-34cd-42df-b2c6-25e783578f9c"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -21600,7 +21642,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453128458</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_28458</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E28458</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E28458</con:value></con:property></con:properties></con:testCase><con:testCase id="8943a122-84cd-450c-937b-d0609f442927" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E068" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="b4859b45-bb2c-4852-b4c7-a380cc0100eb"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453166730</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_66730</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E66730</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E66730</con:value></con:property></con:properties></con:testCase><con:testCase id="8943a122-84cd-450c-937b-d0609f442927" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E068" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="b4859b45-bb2c-4852-b4c7-a380cc0100eb"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -21840,7 +21882,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_81160</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E81160</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E81160</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453181160</con:value></con:property></con:properties></con:testCase><con:testCase id="59bd6b35-5baa-4c6d-9fcf-d1a256f7f6b5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E069" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="6a34a1aa-89d9-4876-af59-6a5af85db464"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_73561</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E73561</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E73561</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453173561</con:value></con:property></con:properties></con:testCase><con:testCase id="59bd6b35-5baa-4c6d-9fcf-d1a256f7f6b5" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E069" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="6a34a1aa-89d9-4876-af59-6a5af85db464"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -22080,7 +22122,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453156817</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_56817</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E56817</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E56817</con:value></con:property></con:properties></con:testCase><con:testCase id="e0c9b901-3afb-4fd2-9be9-05be3fa55898" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E070" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="790e7246-c6bb-4d41-93f5-d981c15c68d1"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453151630</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_51630</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E51630</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E51630</con:value></con:property></con:properties></con:testCase><con:testCase id="e0c9b901-3afb-4fd2-9be9-05be3fa55898" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E070" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Msisdn" id="790e7246-c6bb-4d41-93f5-d981c15c68d1"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -22320,7 +22362,7 @@ assert network ==  "O2"
 assert dqlistingdetail == "Ex-Directory"
 assert dqlistinglevel == "Not Opted"
 assert anrusername == "hussain_3770035078@gmail.com"
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453156716</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_56716</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E56716</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E56716</con:value></con:property></con:properties></con:testCase><con:testCase id="f233d367-dac1-446b-a95b-3e7519153c02" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E073" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="6a5e5f17-f165-40a6-918b-f24f6b1d0fe7"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>Msisdn</con:name><con:value>447453190547</con:value></con:property><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_90547</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E90547</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E90547</con:value></con:property></con:properties></con:testCase><con:testCase id="f233d367-dac1-446b-a95b-3e7519153c02" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E073" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="6a5e5f17-f165-40a6-918b-f24f6b1d0fe7"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
 testRunner.testCase.setPropertyValue( "orderNumber", "sp_" + orderNumber )
 log.info orderNumber
 
@@ -22555,7 +22597,7 @@ def expOrderNumber = messageExchange.modelItem.testStep.testCase.getPropertyValu
 def expectedAcceptStatus = messageExchange.modelItem.testStep.testCase.getPropertyValue("acceptStatus")
 
 assert orderNumber == expOrderNumber
-assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_685838105</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07445924819</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944229147419521486</con:value></con:property></con:properties></con:testCase><con:testCase id="8e0fe293-34d7-4933-aee5-6e62b0545398" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E074" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="52b33889-fd8a-42fb-803e-e9a19ad471bc"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
+assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_306884281</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07486188636</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944412130244172354</con:value></con:property></con:properties></con:testCase><con:testCase id="8e0fe293-34d7-4933-aee5-6e62b0545398" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E074" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="52b33889-fd8a-42fb-803e-e9a19ad471bc"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
 testRunner.testCase.setPropertyValue( "orderNumber", "sp_" + orderNumber )
 log.info orderNumber
 
@@ -22790,7 +22832,7 @@ def expOrderNumber = messageExchange.modelItem.testStep.testCase.getPropertyValu
 def expectedAcceptStatus = messageExchange.modelItem.testStep.testCase.getPropertyValue("acceptStatus")
 
 assert orderNumber == expOrderNumber
-assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_986128228</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07445018060</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944760710856163966</con:value></con:property></con:properties></con:testCase><con:testCase id="d805c9e4-b4f6-4842-be5d-2c3d87c03ce2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E075" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="53c531ba-b53f-40e5-8f5a-43f66499511c"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
+assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_970454307</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07423199641</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944775626855305833</con:value></con:property></con:properties></con:testCase><con:testCase id="d805c9e4-b4f6-4842-be5d-2c3d87c03ce2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E075" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random-ON" id="53c531ba-b53f-40e5-8f5a-43f66499511c"><con:settings/><con:config><script>def orderNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(9)
 testRunner.testCase.setPropertyValue( "orderNumber", "sp_" + orderNumber )
 log.info orderNumber
 
@@ -23025,7 +23067,7 @@ def expOrderNumber = messageExchange.modelItem.testStep.testCase.getPropertyValu
 def expectedAcceptStatus = messageExchange.modelItem.testStep.testCase.getPropertyValue("acceptStatus")
 
 assert orderNumber == expOrderNumber
-assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_587273673</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07473658358</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944445945274833106</con:value></con:property></con:properties></con:testCase><con:testCase id="668c6838-5f52-4878-9ddd-91151cf40a4a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E076" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="48627169-cc9f-4c86-b01c-d29ddbb0c39d"><con:settings/><con:config><script>
+assert acceptStatus == expectedAcceptStatus</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>orderNumber</con:name><con:value>sp_342392878</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>07415675451</con:value></con:property><con:property><con:name>sim</con:name><con:value>8944771272117605742</con:value></con:property></con:properties></con:testCase><con:testCase id="668c6838-5f52-4878-9ddd-91151cf40a4a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E076" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="48627169-cc9f-4c86-b01c-d29ddbb0c39d"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -23137,7 +23179,14 @@ assert statusCode == "managecustomerasset-37186-0000-S"
 assert externalDesc == "MSISDN profile was done successfully"
 //assert internalDesc == "internal description"
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="80a5a11f-7250-491d-9f7e-bae5bc37b91c" name="resetPassword"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ManageOnlineRegistrationSoapBinding</con:interface><con:operation>resetPassword</con:operation><con:request name="resetPassword" outgoingWss="" incomingWss="" timeout="" sslKeystore="o2_testsupport_cert20190501.p12" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="44c72cd1-567a-4635-9671-0be26288a363"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageOnlineRegistration_1_0</con:endpoint><con:request/><con:assertion type="SOAP Response" id="24bdd31e-7854-48e9-9e93-b2fdbaeaf697" name="SOAP Response"/><con:assertion type="SOAP Fault Assertion" id="96e9275e-c61b-41fe-8487-aa7b8f461e66" name="Not SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="9925a8ba-b07e-46a9-8770-6aec6313fd77" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="80a5a11f-7250-491d-9f7e-bae5bc37b91c" name="resetPassword"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ManageOnlineRegistrationSoapBinding</con:interface><con:operation>resetPassword</con:operation><con:request name="resetPassword" outgoingWss="" incomingWss="" timeout="" sslKeystore="o2_testsupport_cert20190501.p12" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="PasswordText" id="44c72cd1-567a-4635-9671-0be26288a363"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageOnlineRegistration_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/manageonlineregistrationdata_1">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <man:resetPassword>\r
+         <man:portalId>${#TestCase#PortalId}</man:portalId>\r
+      </man:resetPassword>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="24bdd31e-7854-48e9-9e93-b2fdbaeaf697" name="SOAP Response"/><con:assertion type="SOAP Fault Assertion" id="96e9275e-c61b-41fe-8487-aa7b8f461e66" name="Not SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="9925a8ba-b07e-46a9-8770-6aec6313fd77" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def statusCode = responseHolder.getNodeValue("//man:resetPasswordResponse/cor:statusCode")
@@ -23148,7 +23197,7 @@ log.info "externalDescription : " + externalDescription
 
 assert "manageonlineregistration-12031-0000-S" == statusCode
 assert "User Password has been reset successfully" == externalDescription
-</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_34176</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain34176</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora34176</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453134176</con:value></con:property></con:properties></con:testCase><con:testCase id="d43bd66d-5d95-4192-b203-d649e1cf85d6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E077" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="856edfa1-ec38-40d5-82e8-dde1111ef3d4"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_16128</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain16128</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora16128</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453116128</con:value></con:property></con:properties></con:testCase><con:testCase id="d43bd66d-5d95-4192-b203-d649e1cf85d6" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E077" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="856edfa1-ec38-40d5-82e8-dde1111ef3d4"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -23372,7 +23421,7 @@ log.info "externalDescription : " + externalDescription
 
 assert "manageonlineregistration-12031-0000-S" == statusCode
 assert "User Password has been reset successfully" == externalDescription
-</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_89094</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001663</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain89094@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain89094</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora89094</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453189094</con:value></con:property></con:properties></con:testCase><con:testCase id="bf386784-a1db-4660-b69c-48584e81dfaf" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E078" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="5775945a-cb9b-49dc-aecd-3dd983fba921"><con:settings/><con:config><script>
+</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>e2e_hussain_08562</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788837</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2ehussain08562@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2EHussain08562</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2EVhora08562</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453108562</con:value></con:property></con:properties></con:testCase><con:testCase id="bf386784-a1db-4660-b69c-48584e81dfaf" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E078" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Random_Portal_IDs" id="5775945a-cb9b-49dc-aecd-3dd983fba921"><con:settings/><con:config><script>
 def RandomNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(5)
 testRunner.testCase.setPropertyValue( "PortalId", "e2e_hussain_" + RandomNumber )
 log.info RandomNumber
@@ -23535,7 +23584,7 @@ log.info "externalDescription : " + externalDescription
 
 assert "manageonlineregistration-12031-0000-S" == statusCode
 assert "User Password has been reset successfully" == externalDescription
-</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e327003673</con:value></con:property><con:property><con:name>custNum</con:name><con:value>80001664</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e327003673@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E35019</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E35019</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453135019</con:value></con:property></con:properties></con:testCase><con:testCase id="25226b50-d2af-43fb-802d-7ae7ca09082c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E088" searchProperties="true"><con:settings/><con:testStep type="request" id="a6bd1639-8d89-4630-8a20-da34b050b33d" name="updatePin"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserDetailsSoapBinding</con:interface><con:operation>updatePin</con:operation><con:request name="updatePin" id="7d71f835-3f11-4836-b28e-5899345ced8c" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/ManageUserDetails/proxyservices/UserDetailsPS</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.o2.com">\r
+</scriptText></con:configuration></con:assertion><con:assertion type="Schema Compliance" id="9e37d507-8ae5-4e3f-b458-9fde0c34e84f" name="Schema Compliance" disabled="true"><con:configuration/></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/resetPassword"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>portalId</con:name><con:value>e2e168713994</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788838</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>e2e168713994@stf.ref.o2.co.uk</con:value></con:property><con:property><con:name>firstName</con:name><con:value>E2E19531</con:value></con:property><con:property><con:name>lastName</con:name><con:value>E2E19531</con:value></con:property><con:property><con:name>msisdn</con:name><con:value>447453119531</con:value></con:property></con:properties></con:testCase><con:testCase id="25226b50-d2af-43fb-802d-7ae7ca09082c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="E088" searchProperties="true"><con:settings/><con:testStep type="request" id="a6bd1639-8d89-4630-8a20-da34b050b33d" name="updatePin"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserDetailsSoapBinding</con:interface><con:operation>updatePin</con:operation><con:request name="updatePin" id="7d71f835-3f11-4836-b28e-5899345ced8c" wssPasswordType="PasswordText" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/ManageUserDetails/proxyservices/UserDetailsPS</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.o2.com">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <web:updatePin>\r
@@ -23635,4 +23684,14 @@ assert "1234" == pin
          </man:address>
       </man:createOnlineAccount>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="bc2cc7db-6dc0-4764-9f2d-6bfc45daf571"/><con:assertion type="Schema Compliance" id="3d5615e1-24f2-425d-9af6-d45b21fd7edb"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="e66c5f62-09d4-4540-8203-30a12fa03191"/><con:assertion type="GroovyScriptAssertion" id="0cd87b66-6aee-410f-9b28-fce7fd64bc74" name="Script Assertion"><con:configuration/></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8ec2a864-601c-4eb3-94ec-2219a87a2b71" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 2" searchProperties="true"><con:settings/><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer><con:crypto><con:source>C:/Users/cts1/Desktop/SSH Keys/o2_testsupport_cert20190501.p12</con:source><con:password>t3st1ng</con:password><con:type>KEYSTORE</con:type></con:crypto></con:wssContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="bc2cc7db-6dc0-4764-9f2d-6bfc45daf571"/><con:assertion type="Schema Compliance" id="3d5615e1-24f2-425d-9af6-d45b21fd7edb"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="e66c5f62-09d4-4540-8203-30a12fa03191"/><con:assertion type="GroovyScriptAssertion" id="0cd87b66-6aee-410f-9b28-fce7fd64bc74" name="Script Assertion"><con:configuration/></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="8ec2a864-601c-4eb3-94ec-2219a87a2b71" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 2" searchProperties="true"><con:settings/><con:properties/></con:testCase><con:properties/></con:testSuite><con:mockService id="6b4e0d9d-de84-4ce9-9571-c6551699b364" port="8080" path="/" host="LT014291" name="MockService 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:mockOperation name="createOnlineAccount" id="d63e0f86-8639-407c-a1ad-129a88333a68" interface="ManageOnlineRegistrationSoapBinding" operation="createOnlineAccount"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:response name="Response 1" id="ad549c87-d5bc-4cfe-860a-da702b8e8784" httpResponseStatus="200" encoding="UTF-8"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/manageonlineregistrationdata_1" xmlns:cor="http://soa.o2.co.uk/coredata_1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <man:createOnlineAccountResponse>
+         <cor:statusCode>?</cor:statusCode>
+         <cor:externalDescription>?</cor:externalDescription>
+         <!--Optional:-->
+         <cor:internalDescription>?</cor:internalDescription>
+      </man:createOnlineAccountResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soa.o2.co.uk/manageonlineregistrationservice_1/ManageOnlineRegistrationPortType/createOnlineAccountResponse"/></con:response><con:dispatchConfig/></con:mockOperation></con:mockService><con:properties/><con:wssContainer><con:crypto><con:source>../o2_testsupport_cert20190501.p12</con:source><con:password>t3st1ng</con:password><con:type>KEYSTORE</con:type></con:crypto></con:wssContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
