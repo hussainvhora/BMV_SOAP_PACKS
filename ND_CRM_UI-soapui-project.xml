@@ -7100,7 +7100,7 @@ log.info "SOAFaultCode : " + SOAFaultCode
 
 assert SOAFaultCode == "manageonlineregistration-12031-3613-E"
 assert faultstring == "Backend system error has occurred."
-</scriptText></con:configuration></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="432cb38b-d31d-4cdc-aa64-5277ab021fba" name="SOAP Fault"/><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>hussain_vhora_7017267157</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788688</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>vhor57317482@stf.ref.o2.co.uk</con:value></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="2316c6ad-a5b3-45e8-8f81-c7b1f15edb6c" name="resetPassword"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="c71e55ce-54b7-4b7b-8e0d-e2182a96409c" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="resetPassword" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="request" name="resetPassword_FT_001" id="c35538a7-80d8-4672-a757-c89dd0cb4943"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ManageOnlineRegistrationSoapBinding</con:interface><con:operation>resetPassword</con:operation><con:request name="resetPassword_FT_001" id="4fbc5564-4f1f-4dbb-bb11-5c64279beb3a" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageOnlineRegistration_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/manageonlineregistrationdata_1">\r
+</scriptText></con:configuration></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="432cb38b-d31d-4cdc-aa64-5277ab021fba" name="SOAP Fault"/><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>PortalId</con:name><con:value>hussain_vhora_2274628153</con:value></con:property><con:property><con:name>custNum</con:name><con:value>11788688</con:value></con:property><con:property><con:name>friendlyUsername</con:name><con:value>vhor57317482@stf.ref.o2.co.uk</con:value></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="2316c6ad-a5b3-45e8-8f81-c7b1f15edb6c" name="resetPassword"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="c71e55ce-54b7-4b7b-8e0d-e2182a96409c" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="resetPassword" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="request" name="resetPassword_FT_001" id="c35538a7-80d8-4672-a757-c89dd0cb4943"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>ManageOnlineRegistrationSoapBinding</con:interface><con:operation>resetPassword</con:operation><con:request name="resetPassword_FT_001" id="4fbc5564-4f1f-4dbb-bb11-5c64279beb3a" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/ManageOnlineRegistration_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:man="http://soa.o2.co.uk/manageonlineregistrationdata_1">\r
    <soapenv:Header>
       <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
          <wsse:UsernameToken wsu:Id="UsernameToken-A8F09623FA8686CE1414813384392996">
@@ -7636,7 +7636,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="79b44482-358f-44b8-a113-8957ca149656" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="79b44482-358f-44b8-a113-8957ca149656" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -7711,7 +7711,7 @@ assert lastName == "Jain"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="c6638dbb-4877-4988-88a6-59ac366bf5f9" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="c6638dbb-4877-4988-88a6-59ac366bf5f9" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -7786,7 +7786,7 @@ assert lastName == "Jain"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="9664502b-1421-4652-b163-bb6950a0469a" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="1347de90-ba65-42b7-a42c-d94c70bcf8e6" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="9664502b-1421-4652-b163-bb6950a0469a" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="1347de90-ba65-42b7-a42c-d94c70bcf8e6" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -7796,7 +7796,7 @@ def SOAFaultCode = responseHolder.getNodeValue("//ns1:searchPortalAccountsFault/
 log.info "SOAFaultCode : " + SOAFaultCode
 
 assert SOAFaultCode == "useraccounts-10502-4501-V"
-assert faultstring == "Invalid Request. Please check the input and resubmit."
+assert faultstring == "Search Options Invalid. Please check the input and resubmit."
 
            </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchPortal_FT_004" id="b75cbf3b-155c-4233-a6c4-277af6fe2935"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchPortalAccounts</con:operation><con:request name="searchPortal_FT_004" id="8d022e69-0d11-4a46-8282-a929a86a5631" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
  <soapenv:Header>
@@ -7825,7 +7825,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="9b177cd6-9626-4814-a7e1-42aab54721ea" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="d1363597-dcd4-44fd-bc11-fb23157dc733" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="9b177cd6-9626-4814-a7e1-42aab54721ea" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="d1363597-dcd4-44fd-bc11-fb23157dc733" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -7835,7 +7835,7 @@ def SOAFaultCode = responseHolder.getNodeValue("//ns1:searchPortalAccountsFault/
 log.info "SOAFaultCode : " + SOAFaultCode
 
 assert SOAFaultCode == "useraccounts-10502-4501-V"
-assert faultstring == "Invalid Request. Please check the input and resubmit."
+assert faultstring == "Search Options Invalid. Please check the input and resubmit."
 
            </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchPortal_FT_005" id="4d3b66a4-2438-4c8c-850d-11e190168c50"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchPortalAccounts</con:operation><con:request name="searchPortal_FT_005" id="8d022e69-0d11-4a46-8282-a929a86a5631" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
   <soapenv:Header>
@@ -7864,7 +7864,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="b5d967b4-ca40-4b23-9550-4d89e671ecce" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="360b7cf2-d982-45f7-9556-fcd74214aac8" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="b5d967b4-ca40-4b23-9550-4d89e671ecce" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="360b7cf2-d982-45f7-9556-fcd74214aac8" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -7874,7 +7874,7 @@ def SOAFaultCode = responseHolder.getNodeValue("//ns1:searchPortalAccountsFault/
 log.info "SOAFaultCode : " + SOAFaultCode
 
 assert SOAFaultCode == "useraccounts-10502-4501-V"
-assert faultstring == "Invalid Request. Please check the input and resubmit."
+assert faultstring == "Search Options Invalid. Please check the input and resubmit."
 
            </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="searchPortal_FT_006" id="85396549-c8c6-4b35-8998-6f3d0a27eb7d"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchPortalAccounts</con:operation><con:request name="searchPortal_FT_006" id="8d022e69-0d11-4a46-8282-a929a86a5631" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://sdpapi.ref.o2.co.uk/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
     <soapenv:Header>
@@ -7903,7 +7903,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="f211ce4c-a5ce-4f41-9368-756e58913928" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="f211ce4c-a5ce-4f41-9368-756e58913928" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -7942,7 +7942,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="06c8f096-8f60-410d-b1bf-b6eb378d4e30" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="06c8f096-8f60-410d-b1bf-b6eb378d4e30" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8098,7 +8098,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="e7cbebe8-ac52-49a9-92f0-cc135d70df1f" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="e7cbebe8-ac52-49a9-92f0-cc135d70df1f" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -8117,7 +8117,7 @@ log.info "externalDesc : " + contactNumber
 assert identityUID == "13000000000000823215"
 assert identityUsername == "chandgdon.vhora1@mailinator.com"
 assert masterPortalId == "hussain.vhora"
-assert contactNumber == "447700001111"
+assert contactNumber == "447405311856"
 
 
 
@@ -8165,7 +8165,7 @@ assert lastName == "TestingTest"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="5f4d2fb6-9708-48c9-b734-bf10ab600ff5" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="bfd081a2-3165-4ac3-9361-64bdb613f22f" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="5f4d2fb6-9708-48c9-b734-bf10ab600ff5" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="bfd081a2-3165-4ac3-9361-64bdb613f22f" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8204,7 +8204,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="cc408fba-5076-45f3-beff-5239865c24a9" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="cc408fba-5076-45f3-beff-5239865c24a9" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8243,7 +8243,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="31ef0066-9ccf-4a28-bb15-b97ae4214c75" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="31ef0066-9ccf-4a28-bb15-b97ae4214c75" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8282,7 +8282,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="58e54fbf-4c83-4f93-a360-abacc49d6681" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="21c5954e-8beb-4d96-835a-51a0f79b1921" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="58e54fbf-4c83-4f93-a360-abacc49d6681" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="21c5954e-8beb-4d96-835a-51a0f79b1921" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8321,7 +8321,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="ca45832f-c920-4067-aa29-731409abda59" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="952ffae5-b125-403d-a03b-f1aa70637efb" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="ca45832f-c920-4067-aa29-731409abda59" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="952ffae5-b125-403d-a03b-f1aa70637efb" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8333,7 +8333,7 @@ log.info "SOAFaultCode : " + SOAFaultCode
 assert SOAFaultCode == "useraccounts-10502-4501-V"
 assert faultstring == "Invalid Request. Please check the input and resubmit."
 
- </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="Copy of searchPortal_FT_001" id="e9eb3a31-a2c6-4e0b-9fc7-43989409adf5" disabled="true"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchPortalAccounts</con:operation><con:request name="Copy of searchPortal_FT_001" id="8d022e69-0d11-4a46-8282-a929a86a5631" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@skip_soap_action">false</con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:2223/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
+ </scriptText></con:configuration></con:assertion><con:credentials><con:username>testsupport_4321</con:username><con:password>t3st1ng</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="Copy of searchPortal_FT_001" id="e9eb3a31-a2c6-4e0b-9fc7-43989409adf5"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>UserAccountsSoapBinding</con:interface><con:operation>searchPortalAccounts</con:operation><con:request name="Copy of searchPortal_FT_001" id="8d022e69-0d11-4a46-8282-a929a86a5631" sslKeystore="o2_testsupport_cert20190501.p12"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@skip_soap_action">false</con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:2223/services/UserAccounts_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:user="http://soa.o2.co.uk/useraccountsdata_1">\r
    <soapenv:Header>
       <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
          <wsse:UsernameToken wsu:Id="UsernameToken-A8F09623FA8686CE1414813384392996">
@@ -8427,7 +8427,7 @@ assert lastName == "TestingTest"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="9185cbd9-8b82-49f1-a660-be6aaaf957bb" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="9185cbd9-8b82-49f1-a660-be6aaaf957bb" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -8501,7 +8501,7 @@ assert email == "dj17@gmail.com"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="208687c4-3031-4fb6-b66f-c5087354ac5c" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="a61c6737-00fe-49da-91bf-646326acd6db" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="208687c4-3031-4fb6-b66f-c5087354ac5c" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="a61c6737-00fe-49da-91bf-646326acd6db" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8540,7 +8540,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="b9f5b35b-001a-48aa-b070-9fa3da3587fc" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="b9f5b35b-001a-48aa-b070-9fa3da3587fc" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8579,7 +8579,7 @@ assert faultstring == "Unknown/Uncaught error has occurred. Please contact servi
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="a95ee41c-babd-4576-920d-671f07adce07" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="dc1eb99b-bf88-4530-9eeb-f1ac57b0d211" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="a95ee41c-babd-4576-920d-671f07adce07" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="dc1eb99b-bf88-4530-9eeb-f1ac57b0d211" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8618,7 +8618,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="674b09fd-fc36-4fa7-8783-830d7dcbc167" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="674b09fd-fc36-4fa7-8783-830d7dcbc167" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8657,7 +8657,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="4c022aa2-5ced-46f8-bf39-1e93f1d35f98" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="SOAP Fault Assertion" id="11eca2a3-22ba-4ce4-8630-7d1a7f0e119c"/><con:assertion type="GroovyScriptAssertion" id="4c022aa2-5ced-46f8-bf39-1e93f1d35f98" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -8732,7 +8732,7 @@ assert lastName == "Jain"
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="bc9f9645-ef6f-4b5e-993d-45fba27071dc" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="cdd5f8af-3037-4806-a396-f7d844e326b5" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="bc9f9645-ef6f-4b5e-993d-45fba27071dc" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="cdd5f8af-3037-4806-a396-f7d844e326b5" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8771,7 +8771,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="af251586-d547-40e4-8c41-e7210655d673" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="af251586-d547-40e4-8c41-e7210655d673" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8810,7 +8810,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="5553e59d-32eb-41dc-89c9-452417e58ac4" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="5553e59d-32eb-41dc-89c9-452417e58ac4" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8849,7 +8849,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="e5fb0391-3d48-48f5-aeec-a9b081d0d800" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="a72ad7b4-63d7-424b-bbac-0d0759cbed36" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="e5fb0391-3d48-48f5-aeec-a9b081d0d800" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="a72ad7b4-63d7-424b-bbac-0d0759cbed36" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8888,7 +8888,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="4809dc5d-7bed-4ea9-82c9-8e1ac33f23a6" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="4809dc5d-7bed-4ea9-82c9-8e1ac33f23a6" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -8927,7 +8927,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="2d0b4c96-6b3a-4216-a43a-a34075bf2d5a" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="2d0b4c96-6b3a-4216-a43a-a34075bf2d5a" name="Script Assertion"><con:configuration><scriptText><![CDATA[def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def identityUID = responseHolder.getNodeValue("//user:identityData/user:identityUID")
@@ -8998,7 +8998,7 @@ assert lastName == "Jain"]]></scriptText></con:configuration></con:assertion><co
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="f1300633-f516-4a25-a25e-8328f629c668" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="51c5dd30-99cb-44b5-b4dd-7f2239e14294" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="f1300633-f516-4a25-a25e-8328f629c668" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="51c5dd30-99cb-44b5-b4dd-7f2239e14294" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9037,7 +9037,7 @@ assert faultstring == "Search returned more than the maximum allowed results. Pl
          </user:searchCriteria>\r
       </user:searchPortalAccounts>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="a556e0ce-265a-4f5a-99e9-4a322597889d" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="a556e0ce-265a-4f5a-99e9-4a322597889d" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9076,7 +9076,7 @@ assert faultstring == "Search returned more than the maximum allowed results. Pl
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="d7014af4-0b14-422d-8944-66f0d0393eee" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="d7014af4-0b14-422d-8944-66f0d0393eee" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9115,7 +9115,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="6cbc03a6-287d-4df0-adc7-fb4ea996c677" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="6cbc03a6-287d-4df0-adc7-fb4ea996c677" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9154,7 +9154,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="3ed09a2d-c3d9-4557-9620-09e760dee319" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="9ea2aa72-5fae-458f-ae4b-19835d3eccf2" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="3ed09a2d-c3d9-4557-9620-09e760dee319" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="9ea2aa72-5fae-458f-ae4b-19835d3eccf2" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9193,7 +9193,7 @@ assert faultstring == "Unknown/Uncaught error has occurred. Please contact servi
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="e4ab313b-8132-4d05-b3aa-8fb843526f18" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="e4ab313b-8132-4d05-b3aa-8fb843526f18" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9232,7 +9232,7 @@ assert faultstring == "Search returned no records."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="cc43da01-e97c-40fd-a5ee-7eb52b3e073a" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="cc43da01-e97c-40fd-a5ee-7eb52b3e073a" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9271,7 +9271,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="f96535cb-f8f6-41c1-b64b-ad11dc49e663" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="f96535cb-f8f6-41c1-b64b-ad11dc49e663" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9310,7 +9310,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="3f650d8c-2b30-4881-aa7b-d6d59d0a2516" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="3f650d8c-2b30-4881-aa7b-d6d59d0a2516" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9349,7 +9349,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="543ebd68-1111-4919-9ae1-4090ed722fee" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="GroovyScriptAssertion" id="543ebd68-1111-4919-9ae1-4090ed722fee" name="Script Assertion"><con:configuration><scriptText>def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
 def faultstring = responseHolder.getNodeValue("//soapenv:Fault/faultstring")
@@ -9388,7 +9388,7 @@ assert faultstring == "Invalid Request. Please check the input and resubmit."
          </user:searchCriteria>
       </user:searchPortalAccounts>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="6494e86b-a77d-4e27-b9bd-2c74a5af6fe4" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="4f07d40c-b73e-448e-9cf0-a9629c77d912" name="Script Assertion"><con:configuration><scriptText>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ad920e04-7ce5-421c-a0d5-b8f364db51b9"/><con:assertion type="Schema Compliance" id="d6df1ae3-7eff-4c5d-9b3d-262794e37945" disabled="true"><con:configuration/></con:assertion><con:assertion type="Not SOAP Fault Assertion" id="6494e86b-a77d-4e27-b9bd-2c74a5af6fe4" name="SOAP Fault"/><con:assertion type="GroovyScriptAssertion" id="4f07d40c-b73e-448e-9cf0-a9629c77d912" name="Script Assertion"><con:configuration><scriptText>
 def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
 def responseHolder = groovyUtils.getXmlHolder( messageExchange.responseContent )
 
