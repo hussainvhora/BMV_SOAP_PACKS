@@ -1,0 +1,849 @@
+{
+	"id": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+	"name": "LeanCRM_Livepack",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Delete_customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"63f1b812-932e-1948-217e-73895f959f10"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "b923c8da-213f-b5e9-9304-a5a6a995a3bb"
+		},
+		{
+			"name": "Install_Msisdn",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"c8fb75b1-5864-1794-5089-e978851ffc43",
+				"563a9f34-d9de-31e4-13fd-5480901d8fae",
+				"a45c74a4-694f-b00b-ac01-ac5d42e81187"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "97ef6f2c-4089-aee9-b4c1-6f8d2259b00d"
+		},
+		{
+			"name": "Register_Customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"1d74397e-768e-3c3d-606c-53367831729d",
+				"3522ed4c-9e71-896a-455c-7c9181e3c9e6",
+				"05765224-01e0-e51d-a201-e6f98660c662"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "b993d352-4d13-8c48-4e67-9444edbc2b06"
+		},
+		{
+			"name": "Search_Customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"59af619e-4ad9-03a4-9c96-ce514b35301b",
+				"ff9b4e6c-d3cc-b75b-e2b6-a5b1793e413a",
+				"8acf6203-b796-dfdd-ff31-e61e7da212cd"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "a5f28200-8c7a-624c-90c2-e22cab1a087d"
+		},
+		{
+			"name": "Search_deleted_customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"2edd8e37-727b-108c-7a0f-6e52f019eea3"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "a3e985e2-d37e-5fa8-19c2-b479e0da029b"
+		},
+		{
+			"name": "Search_installed_customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"73ff026e-03e6-0e9e-f543-49b0de5e1e01",
+				"f52a960a-8fd7-1d0d-adfb-512c35ef1918",
+				"afdd66c7-146e-f1fe-c568-3e12a37b2135"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "a8e6fb6b-f213-8b9a-b011-6261ee61a957"
+		},
+		{
+			"name": "Search_updated_customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"d9a1afed-f3a2-5767-ae6b-66c73a3c4165",
+				"e96e6e7e-1160-65c7-c791-e3d320333bb1",
+				"db857797-2260-accd-ef68-01240cf0d633"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "4a7b9b5b-11b1-a17c-3a91-8be050d4b70d"
+		},
+		{
+			"name": "Update_Customer",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"order": [
+				"464bee90-c8ee-cbfd-e7d5-7e826c21ef08",
+				"78a21bfa-ab07-7eac-a9a2-75f412ebf33d",
+				"7e46b2cf-0548-a92a-098d-a4ccba33a20f"
+			],
+			"owner": "2257712",
+			"folders_order": [],
+			"id": "0ecf6043-cc84-1c22-a26f-b06568d18418"
+		}
+	],
+	"folders_order": [
+		"b993d352-4d13-8c48-4e67-9444edbc2b06",
+		"a5f28200-8c7a-624c-90c2-e22cab1a087d",
+		"0ecf6043-cc84-1c22-a26f-b06568d18418",
+		"4a7b9b5b-11b1-a17c-3a91-8be050d4b70d",
+		"97ef6f2c-4089-aee9-b4c1-6f8d2259b00d",
+		"a8e6fb6b-f213-8b9a-b011-6261ee61a957",
+		"b923c8da-213f-b5e9-9304-a5a6a995a3bb",
+		"a3e985e2-d37e-5fa8-19c2-b479e0da029b"
+	],
+	"timestamp": 1507539594722,
+	"owner": "2257712",
+	"public": false,
+	"requests": [
+		{
+			"id": "05765224-01e0-e51d-a201-e6f98660c662",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/",
+			"folder": "b993d352-4d13-8c48-4e67-9444edbc2b06",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_PID_3\");\npostman.setGlobalVariable('LeanCRM_PID_3', Math.floor(Math.random() * 10000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_BFID_3\");\npostman.setGlobalVariable('LeanCRM_BFID_3', Math.floor(Math.random() * 100000000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_custnum_3\");\npostman.setGlobalVariable('LeanCRM_custnum_3', Math.floor(Math.random() * 100000000));\npostman.clearGlobalVariable(\"LeanCRM_ACN_3\");\npostman.setGlobalVariable('LeanCRM_ACN_3', \"contact1212313\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_3\");\npostman.setGlobalVariable('LeanCRM_contactMedium_3', \"Voice\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 201\"] = responseCode.code === 201;\n\nvar message = JSON.parse(responseBody);\ntests[\"Custnum coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_custnum_3\"));\ntests[\"BF ID coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_BFID_3\"));\n\n\nconsole.log(\"Custnum : \", postman.getGlobalVariable(\"LeanCRM_custnum_3\"));\nconsole.log(\"BF ID : \", postman.getGlobalVariable(\"LeanCRM_BFID_3\"));\nconsole.log(\"Portal ID : \", postman.getGlobalVariable(\"LeanCRM_PID_3\"));\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543052488,
+			"name": "CreateUser_FT_001_ACN_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n\t\"bfId\": {{LeanCRM_BFID_3}},\n\t\"portalId\": {{LeanCRM_PID_3}},\n  \"custNum\": {{LeanCRM_custnum_3}},\n  \"address\": {\n    \"PTCABS\": \"PTC\",\n    \"addressLine1\": \"Flat-25, High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Aerola\",\n    \"houseNumber\": \"96\",\n    \"postcode\": \"SL1 4DX\",\n    \n    \"townCity\": \"Slough\"\n  },\n \n  \"alternativeContactNumber\":\"contact1212313\",\n  \"contactMedium\": \"Voice\",\n  \"customerType\": \"CON\",\n  \"dateOfBirth\": \"1990-08-25\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"DqLevel\",\n  \"forename\": \"Rony\",\n  \"gender\": \"M\",\n  \"initials\": \"Mr.\",\n  \"isESMECustomer\": true,\n  \"lastname\": \"Roy\",\n  \"o2MarketingRequired\": true,\n  \"otherMarketingRequired\": true,\n  \"owningBusinessDivision\": \"O2UK\",\n  \"partner\": {\n    \"accountManagerEmail\": \"jonson@gmail.com\",\n    \"accountManagerName\": \"Jonson Mitchell\",\n    \"companyName\": \"Yahoo\",\n    \"companyRegistrationNumber\": \"GGL1000\",\n    \"companyTelephoneNumber\": 98989897989,\n    \"creditVetDate\": \"2016-08-25T07:15:08.212Z\",\n    \"creditVetPassed\": true,\n    \"jobFunction\": \"Development Manager\",\n    \"jobTitle\": \"Manager\",\n    \"network\": \"Online\",\n    \"numberOfEmployees\": 200,\n    \"referral\": \"Facebook\",\n    \"referralDate\": \"2016-08-25T07:15:08.212Z\",\n    \"sector\": \"Communications\"\n  },\n  \"phoneMake\": \"IPhone\",\n  \"posBusinessUnit\": \"Store\",\n  \"registrationType\": \"P\",\n  \"saleDate\": \"2016-08-25T07:15:08.212Z\",\n  \"segmentation\": \"Gold\",\n  \"title\": \"Mr.\"\n}"
+		},
+		{
+			"id": "1d74397e-768e-3c3d-606c-53367831729d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/",
+			"folder": "b993d352-4d13-8c48-4e67-9444edbc2b06",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_PID_1\");\npostman.setGlobalVariable('LeanCRM_PID_1', Math.floor(Math.random() * 10000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_BFID_1\");\npostman.setGlobalVariable('LeanCRM_BFID_1', Math.floor(Math.random() * 100000000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_custnum_1\");\npostman.setGlobalVariable('LeanCRM_custnum_1', Math.floor(Math.random() * 100000000));\npostman.clearGlobalVariable(\"LeanCRM_ACN_1\");\npostman.setGlobalVariable('LeanCRM_ACN_1', \"447409584623\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_1\");\npostman.setGlobalVariable('LeanCRM_contactMedium_1', \"SMS\");\n",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 201\"] = responseCode.code === 201;\n\nvar message = JSON.parse(responseBody);\ntests[\"Custnum coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_custnum_1\"));\ntests[\"BF ID coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_BFID_1\"));\n\n\nconsole.log(\"Custnum : \", postman.getGlobalVariable(\"LeanCRM_custnum_1\"));\nconsole.log(\"BF ID : \", postman.getGlobalVariable(\"LeanCRM_BFID_1\"));\nconsole.log(\"Portal ID : \", postman.getGlobalVariable(\"LeanCRM_PID_1\"));\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543771650,
+			"name": "CreateUser_FT_001_ACN_mobileno",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n\t\"bfId\": {{LeanCRM_BFID_1}},\n\t\"portalId\": {{LeanCRM_PID_1}},\n  \"custNum\": {{LeanCRM_custnum_1}},\n  \"address\": {\n    \"PTCABS\": \"ABC\",\n    \"addressLine1\": \"Flat-26, High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Aerola\",\n    \"houseNumber\": \"96\",\n    \"postcode\": \"SL1 4DX\",\n    \n    \"townCity\": \"Slough\"\n  },\n  \n  \"alternativeContactNumber\":\"447409584623\",\n  \"contactMedium\": \"SMS\",\n  \"customerType\": \"CON\",\n  \"dateOfBirth\": \"1988-08-25\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"DqLevel\",\n  \"forename\": \"Ronnie\",\n  \"gender\": \"M\",\n  \"initials\": \"Mr.\",\n  \"isESMECustomer\": true,\n  \"lastname\": \"Johnson\",\n  \"o2MarketingRequired\": true,\n  \"otherMarketingRequired\": true,\n  \"owningBusinessDivision\": \"O2UK\",\n  \"partner\": {\n    \"accountManagerEmail\": \"peter@gmail.com\",\n    \"accountManagerName\": \"Peter Robinson\",\n    \"companyName\": \"Google\",\n    \"companyRegistrationNumber\": \"GGL1000\",\n    \"companyTelephoneNumber\": 98989897989,\n    \"creditVetDate\": \"2016-08-25T07:15:08.212Z\",\n    \"creditVetPassed\": true,\n    \"jobFunction\": \"Development Manager\",\n    \"jobTitle\": \"Manager\",\n    \"network\": \"Online\",\n    \"numberOfEmployees\": 200,\n    \"referral\": \"Facebook\",\n    \"referralDate\": \"2016-08-25T07:15:08.212Z\",\n    \"sector\": \"Communications\"\n  },\n  \"phoneMake\": \"IPhone\",\n  \"posBusinessUnit\": \"Store\",\n  \"registrationType\": \"P\",\n  \"saleDate\": \"2016-08-25T07:15:08.212Z\",\n  \"segmentation\": \"Gold\",\n  \"title\": \"Mr.\"\n}"
+		},
+		{
+			"id": "2edd8e37-727b-108c-7a0f-6e52f019eea3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_3}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a3e985e2-d37e-5fa8-19c2-b479e0da029b",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 404\"] = responseCode.code === 404;\ntests[\"Customer does not exists\"] = responseBody.has(\"Customer does not exists\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507550437383,
+			"name": "SearchTests_FT_002_ACN_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "3522ed4c-9e71-896a-455c-7c9181e3c9e6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/",
+			"folder": "b993d352-4d13-8c48-4e67-9444edbc2b06",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_PID_2\");\npostman.setGlobalVariable('LeanCRM_PID_2', Math.floor(Math.random() * 10000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_BFID_2\");\npostman.setGlobalVariable('LeanCRM_BFID_2', Math.floor(Math.random() * 100000000000000));\n\npostman.clearGlobalVariable(\"LeanCRM_custnum_2\");\npostman.setGlobalVariable('LeanCRM_custnum_2', Math.floor(Math.random() * 100000000));\npostman.clearGlobalVariable(\"LeanCRM_ACN_2\");\npostman.setGlobalVariable('LeanCRM_ACN_2', \"123409584623\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_2\");\npostman.setGlobalVariable('LeanCRM_contactMedium_2', \"\");\n",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 201\"] = responseCode.code === 201;\n\nvar message = JSON.parse(responseBody);\ntests[\"Custnum coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_custnum_2\"));\ntests[\"BF ID coming valid\"] = responseBody.has(postman.getGlobalVariable(\"LeanCRM_BFID_2\"));\n\n\nconsole.log(\"Custnum : \", postman.getGlobalVariable(\"LeanCRM_custnum_2\"));\nconsole.log(\"BF ID : \", postman.getGlobalVariable(\"LeanCRM_BFID_2\"));\nconsole.log(\"Portal ID : \", postman.getGlobalVariable(\"LeanCRM_PID_2\"));\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543053430,
+			"name": "CreateUser_FT_001_ACN_LLN",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n\t\"bfId\": {{LeanCRM_BFID_2}},\n\t\"portalId\": {{LeanCRM_PID_2}},\n  \"custNum\": {{LeanCRM_custnum_2}},\n  \"address\": {\n    \"PTCABS\": \"PTC\",\n    \"addressLine1\": \"Flat-25, High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Aerola\",\n    \"houseNumber\": \"96\",\n    \"postcode\": \"SL1 4DX\",\n    \n    \"townCity\": \"Slough\"\n  },\n \n  \"alternativeContactNumber\":\"123409584623\",\n  \"customerType\": \"CON\",\n  \"dateOfBirth\": \"1990-08-25\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"DqLevel\",\n  \"forename\": \"Rony\",\n  \"gender\": \"M\",\n  \"initials\": \"Mr.\",\n  \"isESMECustomer\": true,\n  \"lastname\": \"Roy\",\n  \"o2MarketingRequired\": true,\n  \"otherMarketingRequired\": true,\n  \"owningBusinessDivision\": \"O2UK\",\n  \"partner\": {\n    \"accountManagerEmail\": \"jonson@gmail.com\",\n    \"accountManagerName\": \"Jonson Mitchell\",\n    \"companyName\": \"Yahoo\",\n    \"companyRegistrationNumber\": \"GGL1000\",\n    \"companyTelephoneNumber\": 98989897989,\n    \"creditVetDate\": \"2016-08-25T07:15:08.212Z\",\n    \"creditVetPassed\": true,\n    \"jobFunction\": \"Development Manager\",\n    \"jobTitle\": \"Manager\",\n    \"network\": \"Online\",\n    \"numberOfEmployees\": 200,\n    \"referral\": \"Facebook\",\n    \"referralDate\": \"2016-08-25T07:15:08.212Z\",\n    \"sector\": \"Communications\"\n  },\n  \"phoneMake\": \"IPhone\",\n  \"posBusinessUnit\": \"Store\",\n  \"registrationType\": \"P\",\n  \"saleDate\": \"2016-08-25T07:15:08.212Z\",\n  \"segmentation\": \"Gold\",\n  \"title\": \"Mr.\"\n}"
+		},
+		{
+			"id": "464bee90-c8ee-cbfd-e7d5-7e826c21ef08",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer//{{LeanCRM_PID_1}}",
+			"folder": "0ecf6043-cc84-1c22-a26f-b06568d18418",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_1\");\npostman.setGlobalVariable('LeanCRM_ACN_1', \"contact1212313\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_1\");\npostman.setGlobalVariable('LeanCRM_contactMedium_1', \"\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Success Message\"] = responseBody.has(\"Customer details updated successfully\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543775474,
+			"name": "UpdateUser_FT_001_mobileno",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"address\": {\n    \"PTCABS\": \"PTCABS\",\n    \"addressLine1\": \"100 High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Dreamland\",\n    \"houseNumber\": \"302\",\n    \"postcode\": \"SL1 1EE\",\n    \"status\": \"1234567890123456789\",\n    \"townCity\": \"Slough\"\n  },\n  \"alternativeContactNumber\":\"contact1212313\",\n  \"customerType\":\"CON\",\n  \"dateOfBirth\": \"2016-10-14\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"level\",\n  \"email\": \"newmail@gmail.com\",\n  \"forename\": \"Hussain\",\n  \"gender\": \"M\",\n  \"initials\": \"HV\",\n  \"lastname\": \"Vhora\",\n  \"o2MarketingRequired\": false,\n  \"otherMarketingRequired\": false,\n  \"segmentation\": \"Platinum\",\n  \"title\": \"Mr.\",\n   \"partner\" : {\n     \"network\" : \"Vodafone\"\n   },\n   \"phoneMake\" : \"IPhone\"\n}"
+		},
+		{
+			"id": "563a9f34-d9de-31e4-13fd-5480901d8fae",
+			"headers": "Content-Type: application/json\nX-transactionId: 784512587-Xddd\napigw-transaction-id: api-78544ffdddd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-transactionId",
+					"value": "784512587-Xddd",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apigw-transaction-id",
+					"value": "api-78544ffdddd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/asset/+447434567888/install",
+			"folder": "97ef6f2c-4089-aee9-b4c1-6f8d2259b00d",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_2\");\npostman.setGlobalVariable('LeanCRM_ACN_2', \"447434567888\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\nvar message = JSON.parse(responseBody);\ntests[\"Success\"] = responseBody.has(\"Success\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507546327182,
+			"name": "Asset_INSTALL_001_Installed_LLN",
+			"description": "Asset install success scenario",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"portalId\":{{LeanCRM_PID_2}},\n  \"domain\":\"stf.ref.o2.co.uk\",\n  \"msisdnType\":\"POST-PAY\",\n  \"productType\":\"PAYM-MBB\",\n  \"status\":\"ACTIVE\",\n  \"genevaAccountId\":\"GID001\",\n  \"genevaCustomerId\":\"GCID001\"\n}"
+		},
+		{
+			"id": "59af619e-4ad9-03a4-9c96-ce514b35301b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_1}}/?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a5f28200-8c7a-624c-90c2-e22cab1a087d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_1\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_1\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_1\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_1\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_1\"));\n\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543776834,
+			"name": "SearchTests_FT_001_ACN_mobileno",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "63f1b812-932e-1948-217e-73895f959f10",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/list",
+			"folder": "b923c8da-213f-b5e9-9304-a5a6a995a3bb",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507547081259,
+			"name": "Delete_Customer_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\"portal_ids\":[{{LeanCRM_PID_3}}]}"
+		},
+		{
+			"id": "73ff026e-03e6-0e9e-f543-49b0de5e1e01",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_1}}/?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a8e6fb6b-f213-8b9a-b011-6261ee61a957",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_1\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_1\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_1\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_1\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_1\"));\n\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543774098,
+			"name": "SearchTests_FT_001_ACN_mobileno",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "d9a1afed-f3a2-5767-ae6b-66c73a3c4165",
+			"rawModeData": ""
+		},
+		{
+			"id": "78a21bfa-ab07-7eac-a9a2-75f412ebf33d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer//{{LeanCRM_PID_2}}",
+			"folder": "0ecf6043-cc84-1c22-a26f-b06568d18418",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_2\");\npostman.setGlobalVariable('LeanCRM_ACN_2', \"447409584623\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_2\");\npostman.setGlobalVariable('LeanCRM_contactMedium_2', \"\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Success Message\"] = responseBody.has(\"Customer details updated successfully\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543770582,
+			"name": "UpdateUser_FT_001_LLN",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"address\": {\n    \"PTCABS\": \"PTCABS\",\n    \"addressLine1\": \"100 High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Dreamland\",\n    \"houseNumber\": \"302\",\n    \"postcode\": \"SL1 1EE\",\n    \"status\": \"1234567890123456789\",\n    \"townCity\": \"Slough\"\n  },\n  \"alternativeContactNumber\":\"447409584623\",\n  \"customerType\":\"CON\",\n  \"dateOfBirth\": \"2016-10-14\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"level\",\n  \"email\": \"newmail@gmail.com\",\n  \"forename\": \"Hussain\",\n  \"gender\": \"M\",\n  \"initials\": \"HV\",\n  \"lastname\": \"Vhora\",\n  \"o2MarketingRequired\": false,\n  \"otherMarketingRequired\": false,\n  \"segmentation\": \"Platinum\",\n  \"title\": \"Mr.\",\n   \"partner\" : {\n     \"network\" : \"Vodafone\"\n   },\n   \"phoneMake\" : \"IPhone\"\n}"
+		},
+		{
+			"id": "7e46b2cf-0548-a92a-098d-a4ccba33a20f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer//{{LeanCRM_PID_3}}",
+			"folder": "0ecf6043-cc84-1c22-a26f-b06568d18418",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_3\");\npostman.setGlobalVariable('LeanCRM_ACN_3', \"123409584623\");\n\npostman.clearGlobalVariable(\"LeanCRM_contactMedium_3\");\npostman.setGlobalVariable('LeanCRM_contactMedium_3', \"SMS\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Success Message\"] = responseBody.has(\"Customer details updated successfully\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507545473990,
+			"name": "UpdateUser_FT_001_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"address\": {\n    \"PTCABS\": \"PTCABS\",\n    \"addressLine1\": \"100 High Street\",\n    \"addressLine2\": \"Slough\",\n    \"country\": \"UK\",\n    \"county\": \"Berkshire\",\n    \"houseName\": \"Dreamland\",\n    \"houseNumber\": \"302\",\n    \"postcode\": \"SL1 1EE\",\n    \"status\": \"1234567890123456789\",\n    \"townCity\": \"Slough\"\n  },\n  \"alternativeContactNumber\":\"123409584623\",\n  \"customerType\":\"CON\",\n  \"contactMedium\": \"SMS\",\n  \"dateOfBirth\": \"2016-10-14\",\n  \"dqListingDetail\": \"Full\",\n  \"dqListingLevel\": \"level\",\n  \"email\": \"newmail@gmail.com\",\n  \"forename\": \"Hussain\",\n  \"gender\": \"M\",\n  \"initials\": \"HV\",\n  \"lastname\": \"Vhora\",\n  \"o2MarketingRequired\": false,\n  \"otherMarketingRequired\": false,\n  \"segmentation\": \"Platinum\",\n  \"title\": \"Mr.\",\n   \"partner\" : {\n     \"network\" : \"Vodafone\"\n   },\n   \"phoneMake\" : \"IPhone\"\n}"
+		},
+		{
+			"id": "8acf6203-b796-dfdd-ff31-e61e7da212cd",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_3}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a5f28200-8c7a-624c-90c2-e22cab1a087d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_3\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_3\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_3\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_3\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_3\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543049478,
+			"name": "SearchTests_FT_002_ACN_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "a45c74a4-694f-b00b-ac01-ac5d42e81187",
+			"headers": "Content-Type: application/json\nX-transactionId: 784512587-Xddd\napigw-transaction-id: api-78544ffdddd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-transactionId",
+					"value": "784512587-Xddd",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apigw-transaction-id",
+					"value": "api-78544ffdddd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/asset/+447445677777/install",
+			"folder": "97ef6f2c-4089-aee9-b4c1-6f8d2259b00d",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_3\");\npostman.setGlobalVariable('LeanCRM_ACN_3', \"447445677777\");",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\nvar message = JSON.parse(responseBody);\ntests[\"Success\"] = responseBody.has(\"Success\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507546329113,
+			"name": "Asset_INSTALL_001_Installed_alphanumeric",
+			"description": "Asset install success scenario",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"portalId\":{{LeanCRM_PID_3}},\n  \"domain\":\"stf.ref.o2.co.uk\",\n  \"msisdnType\":\"POST-PAY\",\n  \"productType\":\"PAYM-MBB\",\n  \"status\":\"ACTIVE\",\n  \"genevaAccountId\":\"GID001\",\n  \"genevaCustomerId\":\"GCID001\"\n}"
+		},
+		{
+			"id": "afdd66c7-146e-f1fe-c568-3e12a37b2135",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_3}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a8e6fb6b-f213-8b9a-b011-6261ee61a957",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_3\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_3\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_3\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_3\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_3\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543049478,
+			"name": "SearchTests_FT_002_ACN_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "db857797-2260-accd-ef68-01240cf0d633",
+			"rawModeData": ""
+		},
+		{
+			"id": "c8fb75b1-5864-1794-5089-e978851ffc43",
+			"headers": "Content-Type: application/json\nX-transactionId: 784512587-Xddd\napigw-transaction-id: api-78544ffdddd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-transactionId",
+					"value": "784512587-Xddd",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apigw-transaction-id",
+					"value": "api-78544ffdddd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/asset/+447415926348/install",
+			"folder": "97ef6f2c-4089-aee9-b4c1-6f8d2259b00d",
+			"queryParams": [],
+			"preRequestScript": "postman.clearGlobalVariable(\"LeanCRM_ACN_1\");\npostman.setGlobalVariable('LeanCRM_ACN_1', \"447415926348\");\n",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\nvar message = JSON.parse(responseBody);\ntests[\"Success\"] = responseBody.has(\"Success\");",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507546324703,
+			"name": "Asset_INSTALL_001_Installed_mobileno",
+			"description": "Asset install success scenario",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": "{\n  \"portalId\": {{LeanCRM_PID_1}},\n  \"domain\":\"stf.ref.o2.co.uk\",\n  \"msisdnType\":\"POST-PAY\",\n  \"productType\":\"PAYM-MBB\",\n  \"status\":\"ACTIVE\",\n  \"genevaAccountId\":\"GID001\",\n  \"genevaCustomerId\":\"GCID001\"\n}"
+		},
+		{
+			"id": "d9a1afed-f3a2-5767-ae6b-66c73a3c4165",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_1}}/?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "4a7b9b5b-11b1-a17c-3a91-8be050d4b70d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_1\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_1\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_1\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_1\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_1\"));\n\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543774098,
+			"name": "SearchTests_FT_001_ACN_mobileno",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "db857797-2260-accd-ef68-01240cf0d633",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_3}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "4a7b9b5b-11b1-a17c-3a91-8be050d4b70d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_3\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_3\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_3\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_3\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_3\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543049478,
+			"name": "SearchTests_FT_002_ACN_alphanumeric",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "db857797-2260-accd-ef68-01240cf0d633",
+			"rawModeData": ""
+		},
+		{
+			"id": "e96e6e7e-1160-65c7-c791-e3d320333bb1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_2}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "4a7b9b5b-11b1-a17c-3a91-8be050d4b70d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_2\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_2\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_2\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_2\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_2\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543050705,
+			"name": "SearchTests_FT_002_ACN_LLN",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "e96e6e7e-1160-65c7-c791-e3d320333bb1",
+			"rawModeData": ""
+		},
+		{
+			"id": "f52a960a-8fd7-1d0d-adfb-512c35ef1918",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_2}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a8e6fb6b-f213-8b9a-b011-6261ee61a957",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_2\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_2\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_2\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_2\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_2\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507543050705,
+			"name": "SearchTests_FT_002_ACN_LLN",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "e96e6e7e-1160-65c7-c791-e3d320333bb1",
+			"rawModeData": ""
+		},
+		{
+			"id": "ff9b4e6c-d3cc-b75b-e2b6-a5b1793e413a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{leancrm}}/customer/portalid/{{LeanCRM_PID_2}}?searchOptions=portalInfo,additionalCustomerInfo,billingInfo",
+			"folder": "a5f28200-8c7a-624c-90c2-e22cab1a087d",
+			"queryParams": [
+				{
+					"key": "searchOptions",
+					"value": "portalInfo,additionalCustomerInfo,billingInfo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "var data = JSON.parse(responseBody);\ntests[\"Status code is 200\"] = responseCode.code === 200;\ntests[\"Valid CustNum coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_custnum_2\"));\ntests[\"Valid BF ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_BFID_2\"));\ntests[\"Valid Portal ID coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_PID_2\"));\ntests[\"Valid AlternativeContactNumber coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_ACN_2\"));\ntests[\"Valid contactmedium coming\"] = responseBody.has(pm.globals.get(\"LeanCRM_contactMedium_2\"));\n\n\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507545462246,
+			"name": "SearchTests_FT_002_ACN_LLN",
+			"description": "",
+			"collectionId": "48a2dfa6-2cd6-629e-7e86-7d2ecd05341b",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}
